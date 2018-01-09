@@ -19,10 +19,10 @@ usage:
 import sys
 import socket
 
-IP      = '192.168.1.112'
+IP      = '192.168.51.86'
 PORT    = 1515
 BUFFER  = 1024
-ID      = 0xFF   #ID 0 should he 0xFF
+ID      = 0x01   #ID 0 should he 0xFF
 
 def sendCmd(commands):
 
